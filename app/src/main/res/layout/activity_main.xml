@@ -12,5 +12,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/tvSaludo"/>
+    <Button
+        android:id="@+id/clickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSaludo"
+        android:text="@string/mensajeBoton"
+        android:theme="@style/rasedButnModified"
+        />
+
 </RelativeLayout>
